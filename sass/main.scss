@@ -1,0 +1,41 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+
+/* body {
+  background-image: url(../images/vrhythm-20px-4.png); comment out normally
+  background: linear-gradient(0deg, #900 0px, #900 1px, transparent 1px);
+  background-position: 0 0;
+  background-size: 100px 20px;
+}
+vertical rythmn template */
+
+
+ img {
+  width: 100%;
+  height: auto;
+ }
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+@function em($target-px, $context: 16px) {
+  @return ($target-px / $context) * 1em; }

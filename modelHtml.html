@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!----  this  DOCTYPE will display html5 in all browsers including not compliant ------>
+<html lang="eng">
+<head>
+<meta charset="utf-8"> <!-----New html 5 character set ensures document displays correctly should appear in the first 512 characters of the document ----->
+<meta name="author" content="Louise Schuller">
+<meta name="description"  content="Revising key skills">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!---- forces old versions of IE into edge engine ---->
+<meta name="viewport" content="width=device-width, initial-scale=1"><!----OPTIMIZES FOR PHONES ------>
+<meta name="msapplication-tap-highlight" content="no"><!----disables a link behaviour (greying out) in ie 8 on smartphones ------>
+
+<title>MODEL HTML PAGE</title>
+<link href="somefile.css" type="text/css" rel="stylesheet" > <!--- can leave type out  ---->
+<script src="jsfile.js"></script>  <!------HTML 5 simple script tag if type is not included treated a js ------->
+
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<!---- IE 8 and earlier this link to an js shiv covers all new html5 tags which these browsers would not allow to be styled there is a downloadable version  for a local file source at https://github.com/aFarkas/html5shiv --->
+
+</head>
+<body>
+<p><b>Attributes</b><p>
+<p title="Title attribute">Title attribute displays as a tool tip on roll over<p>
+<p><a href="#">href attribute </a>
+<p> Size declared a image height and width  img src="w3schools.jpg" width="104" height="142" <p>
+<p> Alt tag on image  img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142" </p>
+<p>style and id are also attributes</p>
+
+<p><b>Content holders</b></p>
+<h1>Headings h1 to h6</h1>
+<p> p br pre - preformatted</p>
+<p><b>Formatting elements </b>
+</p>
+ <ol>
+<li> b and semantic strong</li>
+<li> i and semantic em</li>
+<li>small</li>
+<li>  marked (highlighted) </li>
+<li> q for quotations, blockquote for long quotations</li>
+<li>address</li>
+<li>citation</li>
+<li> (there are some others like strikethrough, deleted etc mainly editorial, semantic rather than visual but maybe useful hooks in some situations.)</li>
+</ol>
+<p><b>Lists</b><p>
+ <p>unordered and ordered lists ul and ol</p>
+ <p>The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term: HAVE A REPUTATION OF BEING DIFFICULT TO STYLE</p>
+  <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl> 
+</body>
+</html>
